@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.header{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+.list{
+	margin: 0 auto;
+}
+
+.card{
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid black;
+	border-style: none;
+
+}
+
+.content{
+	display: flex;
+}
+
+.post{
+	display: flex;
+}
+
+.left{
+	float: left;
+	margin: 0 auto;
+}
+
+.right{
+	float: right;
+	margin-left: 10px;
+}
+
+.rank{
+
+}
+
+.title:hover, .comments:hover{
+	color: red;
+}
+
+.author{
+	font-size: 10px;
+	color: grey;
+}
+
+.comments{
+	font-size: 12px;
+	color: blue;
+}
+
+.scoreBlock{
+	display: inline-grid;
+}
+
+.score{
+	font-size: 12px;
+	font-style: bold;
+	color: grey;
+	display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.thumbnail{
+	width: 65px;
+	height: 65px;
+}
+
+.searchForm{
+	text-align: center;
+}
+
+.postDetail{
+	font-size: 14px;
+	width: 900px;
+}
+
+
